@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm nav-light"
+      style="background-color: orange"
+    >
+      <a href="#" class="navbar-brand"
+        ><img
+          src="https://www.shareicon.net/data/128x128/2017/03/02/880212_home_512x512.png"
+          height="30"
+          width="30"
+        />About</a
+      >
+      <button
+        class="navbar-toggler"
+        data-bs-target="#mynavbar"
+        data-bs-toggle="collapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#" class="nav-link"
+              ><img
+                src="https://www.shareicon.net/download/2016/07/08/117274_list_512x512.png"
+                height="30"
+                width="30"
+              />Academics</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="#technical_skills" class="nav-link"
+              ><img
+                src="https://www.shareicon.net/download/2016/07/08/117274_list_512x512.png"
+                height="30"
+                width="30"
+              />Technical skills</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"
+              ><img
+                src="https://www.shareicon.net/data/128x128/2016/06/06/582138_info_48x48.png"
+                height="30"
+                width="30"
+              />Projects</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"
+              ><img
+                src="https://www.shareicon.net/data/128x128/2016/06/06/582138_info_48x48.png"
+                height="30"
+                width="30"
+              />Achievements</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="#contact_info" class="nav-link"
+              ><img
+                src="https://www.shareicon.net/data/128x128/2015/09/19/643343_identity_512x512.png"
+                height="40"
+                width="40"
+              />Contact me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="text_content">
+        <section id="about_sec">
+          <h1>V Karthikeya</h1>
+          <h4>krthkadtya@gmail.com</h4>
+          <hr />
+          <h3>Career Objective</h3>
+          <h5>
+            Seeking a responsible career oppurtunity in th field of computer
+            science where i can utilize my logical and technical skills towards
+            personal and professional development
+          </h5>
+        </section>
+
+        <section id="technical_skills">
+          <h1>TechSkills</h1>
+          <h4>Programming Languages</h4>
+          <ul id="pl_list">
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+          <h4>Databases</h4>
+          <ul id="db_list">
+            <li>MySQL</li>
+          </ul>
+          <h4>Web Technologies</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BootStrap</li>
+            <li>Node</li>
+          </ul>
+        </section>
+
+        <section id="contact_info">
+          <h6 class="contact_keys">Email ID</h6>
+          <h4 class="contact_values">
+            <a href="mailto:krthkadtya@gmail.com">krthkadtya@gmail.com</a>
+          </h4>
+
+          <h6 class="contact_keys">Phone Number</h6>
+          <h4 class="contact_values">+91 8341082283</h4>
+        </section>
+      </div>
+
+      <div class="profile_image_class">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ps22-e01f0.appspot.com/o/Photo%20on%2014-11-22%20at%202.10%20PM.jpg?alt=media&token=32036429-894d-47c8-b4a4-ee4394666887"
+          id="profile_photo"
+        />
+      </div>
+    </div>
+
+    <style>
+      .container {
+        display: flex;
+        text-align: left;
+      }
+
+      #profile_photo {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 6px solid;
+        border-color: orange;
+      }
+
+      body {
+        background-color: rgb(249, 229, 204);
+      }
+
+      .contact_keys {
+        color: blueviolet;
+      }
+
+      .contact_values {
+        color: blue;
+      }
+    </style>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
